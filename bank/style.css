@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700&family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gabarito";
+} 
+
+h1 {
+    color: rgb(243, 243, 243);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 900;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+}
+
+.tabclient {
+    padding: 10%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+th, td {
+    border: 3px solid #000000;
+    text-align: center;
+    padding: 8px;
+    color: black;
+    font-size: 900;
+    background-color: #f0f0f0;
+}
+
+th {
+    background-color: rgb(145, 145, 145);
+}
+
+th a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(49, 49, 152);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    top: 0;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6em;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color:  white;
+    font-weight: 500;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+.navigation a:hover, .logo:hover {
+    color: #02212f;
+}
+
+section {
+    background-image: url("img/mon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.home {
+    height: 100%;
+    display: flex;
+    background: rgba(0, 0, 0, 0.471);
+    justify-content: center;
+    align-items: center;
+}
+
+.home span {
+    color : white;
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer {
+    background-color: rgb(145, 145, 145);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+ 
